@@ -2,7 +2,8 @@
 var lat=30.7243837;
 var long=76.771263;
 var flag=0;
-//ADDED GELOCATION API FIR GETTING USER CURRENT LOCATION
+
+//ADDED GELOCATION API FOR GETTING USER CURRENT LOCATION
 function getLocation() {
     if (navigator.geolocation) {
         //navigator.geolocation.getCurrentPosition(showPosition);
@@ -21,6 +22,7 @@ function getLocation() {
         alert("Geolocation is not supported by this browser.");
     }
 }
+
 function showPosition(position) 
 {
     /*x.innerHTML = */
@@ -123,6 +125,7 @@ function sub()
         alert("Custom Room Data Submitted");
     }
 }
+
 //THE MAIN FUNCTION
 function done()
 {
